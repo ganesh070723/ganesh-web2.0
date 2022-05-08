@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#body1 {
+  position: absolute;
+  top:40%;
+  width:200px;
+}
+.line {
+  width: 100vw;
+}
+.left, .right {
+  width: 50vw;
+  overflow: hidden;
+  display: inline-block;
+}
+.left {
+  color:pink;
+  transform: skew(0deg, -15deg);
+}
+.right {
+  color: black;
+  transform: skew(0deg, 15deg);
+}
+.left .content {
+  width: 100vw;
+  text-align: center;
+}
+.right .content {
+  width: 100vw;
+  text-align: center;
+  transform: translate(-50vw);
+}
+span {
+  display: inline-block;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 10vw;
+  text-transform: uppercase;
+  line-height: .8;
+  transition: ease-out .6s;
+}
+#email-img{
+
+height:13%;
+position: absolute;
+top:130%;
+left:2%
+}
+#h1-e{
+position: absolute;
+top:135%;
+left:25%;
+
+font-family: 'Allerta Stencil', sans-serif;
+
+
+}
+#h1-c{
+position: absolute;
+top:120%;
+left:35%;
+font-family: 'Monoton', cursive;
+
+
+}
+#tb{
+position: absolute;
+top:150%;
+left:40%;
+
+}
+.tab,.td{
+
+padding: 40px;
+}
+
+body{
+text-align: center;
+le
+}
